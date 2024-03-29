@@ -1,4 +1,12 @@
+"""
+    BlackDir-Framework Project
+    author:RedVirus Twitter:Je_1r insta:redvirus_0 
+    author:Ali Twitter:bc_zQ
 
+    Thx for all use this project
+
+
+"""
 import time
 from urllib import request
 import json
@@ -50,6 +58,20 @@ except:
     print(colored("\nPlease Install google library command install:\npip3 install google", "red"))
     exit()
 
+
+def logo():
+    print("""
+\x1b[34m
+  ____            
+ |  _ \    |            |
+ | |_) |   |            |
+ |  _ <|   |            |
+ | |_) |   |            |
+ |____/    | _ _ _ _  _ |
+ 
+help: python3 BlackDir.py -h
+                                                                                                                
+""")
 
 
 def fast_crawl(url):
