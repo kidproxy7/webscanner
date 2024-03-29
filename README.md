@@ -5,8 +5,8 @@
   <p>[3] Advanced Dorks Search </p>
   <p>[4] Scan list of Dorks </p>
  <p>[5] Scan WebSites [Xss,Sql,Html Inj] </p>
- <p>[7] Port Scan </p>
- <p>[8] Brute Force Wordpress </p>
+ <p>[6] Port Scan </p>
+ <p>[7] Brute Force Wordpress </p>
 <pre>
 apt update
 apt install python3-pip
