@@ -1,7 +1,5 @@
 """
-    BlackDir-Framework Project
-    author:RedVirus Twitter:Je_1r insta:redvirus_0 
-    author:Ali Twitter:bc_zQ
+    
 
     Thx for all use this project
 
@@ -61,19 +59,8 @@ except:
 
 def logo():
     print("""
-\x1b[34m
-  ____  _            _    _____  _        ______                                           _    
- |  _ \| |          | |  |  __ \(_)      |  ____|                                         | |   
- | |_) | | __ _  ___| | _| |  | |_ _ __  | |__ _ __ __ _ _ __ ___   _____      _____  _ __| | __
- |  _ <| |/ _` |/ __| |/ / |  | | | '__| |  __| '__/ _` | '_ ` _ \ / _ \ \ /\ / / _ \| '__| |/ /
- | |_) | | (_| | (__|   <| |__| | | |    | |  | | | (_| | | | | | |  __/\ V  V / (_) | |  |   < 
- |____/|_|\__,_|\___|_|\_\_____/|_|_|    |_|  |_|  \__,_|_| |_| |_|\___| \_/\_/ \___/|_|  |_|\_\ version:2.8
 
- -----------------------------------------------------------------------------------------------------------
-    The Programmer of this tool is not irresponsible about any damage Or leak induced by the user
- -----------------------------------------------------------------------------------------------------------
- 
-help: python3 BlackDir.py -h
+help: python3 BUWEBSCANNER.py -h
                                                                                                                 
 """)
 
@@ -597,7 +584,7 @@ def scanports(ip):
 
 def update():
     os.system(
-        "cd .. && rm -rf BlackDir-Framework-New && mkdir BlackDir-Framework-New && cd BlackDir-Framework-New && git clone https://github.com/RedVirus0/BlackDir-Framework.git && echo 'New Directory >> ' && pwd")
+        "cd .. && rm -rf BUWEBSCANNER-Framework-New && mkdir BUWEBSCANNER-Framework-New && cd BUWEBSCANNER-Framework-New && git clone https://github.com/RedVirus0/BUWEBSCANNER-Framework.git && echo 'New Directory >> ' && pwd")
 
 def hash_en(word,hash_type):
     word = word.strip()
@@ -764,23 +751,23 @@ parser = argparse.ArgumentParser("""
 --enum              : Wordpress User Enumerate 
 
 ex:
-python3 BlackDir.py --spider http://google.com
-python3 BlackDir.py --dork inurl:admin/login.php --country sa --text product
-python3 BlackDir.py --xss "paste url here"
-python3 BlackDir.py --sql "paste url here"
-python3 BlackDir.py --subdomain google.com
-python3 BlackDir.py --RevIP [ip address of server]
-python3 BlackDir.py --word redvirus --type md4
-python3 BlackDir.py --word redvirus --type md5
-python3 BlackDir.py --word redvirus --type sha1
-python3 BlackDir.py --word redvirus --type sha256
-python3 BlackDir.py --word redvirus --type sha512
-python3 BlackDir.py --hash_type 5f4dcc3b5aa765d61d8327deb882cf99
-python3 BlackDir.py --wordpress http://ebase.com/
-python3 BlackDir.py --wordpress http://ebase.com/ --ListUsername /root/Desktop/users.txt --ListPassowrd /root/Desktop/pass.txt
-python3 BlackDir.py --wordpress http://ebase.com/ --ListUsername /root/Desktop/users.txt 
-python3 BlackDir.py --wordpress http://ebase.com/ --ListPassword /root/Desktop/pass.txt
-python3 BlackDir.py --wordpress https://everythingrevelstoke.com --enum use
+python3 BUWEBSCANNER.py --spider http://google.com
+python3 BUWEBSCANNER.py --dork inurl:admin/login.php --country sa --text product
+python3 BUWEBSCANNER.py --xss "paste url here"
+python3 BUWEBSCANNER.py --sql "paste url here"
+python3 BUWEBSCANNER.py --subdomain google.com
+python3 BUWEBSCANNER.py --RevIP [ip address of server]
+python3 BUWEBSCANNER.py --word redvirus --type md4
+python3 BUWEBSCANNER.py --word redvirus --type md5
+python3 BUWEBSCANNER.py --word redvirus --type sha1
+python3 BUWEBSCANNER.py --word redvirus --type sha256
+python3 BUWEBSCANNER.py --word redvirus --type sha512
+python3 BUWEBSCANNER.py --hash_type 5f4dcc3b5aa765d61d8327deb882cf99
+python3 BUWEBSCANNER.py --wordpress http://ebase.com/
+python3 BUWEBSCANNER.py --wordpress http://ebase.com/ --ListUsername /root/Desktop/users.txt --ListPassowrd /root/Desktop/pass.txt
+python3 BUWEBSCANNER.py --wordpress http://ebase.com/ --ListUsername /root/Desktop/users.txt 
+python3 BUWEBSCANNER.py --wordpress http://ebase.com/ --ListPassword /root/Desktop/pass.txt
+python3 BUWEBSCANNER.py --wordpress https://everythingrevelstoke.com --enum use
 
 
 
@@ -864,5 +851,4 @@ elif sql_inection == None and scanner == None and url == None and dork == None a
     hash_identifier(hash_ide)
 elif sql_inection == None and scanner == None and url == None and dork == None and subdomains == None and list_dork == None and updates == None and ip == None and portscan == None and html == None and hash_type == None and user_word == None and hash_ide == None and url_wordpress !=None:
     wordpress(url_wordpress,usernames,passwords,enumx)
-else:
-    logo()
+    ()
