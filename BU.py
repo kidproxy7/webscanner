@@ -6,7 +6,6 @@
 """
 import time
 from urllib import request
-import json
 from hashlib import *
 from urllib.parse import urlsplit
 import urllib.parse as urlparse
